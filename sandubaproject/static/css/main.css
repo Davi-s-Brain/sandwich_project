@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: subway_black;
+  src: url('../fonts/Subway-Black.ttf');
+}
+
+h1, h2, h3 {
+  font-family: subway_black;
+  color: rgb(21, 184, 0)
+}
