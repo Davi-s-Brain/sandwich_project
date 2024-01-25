@@ -9,3 +9,7 @@ def home():
 @views.route("/randomizer")
 def randomizer():
     return render_template("randomizer.html")
+
+@views.route("/results")
+def result():
+    return render_template("results.html")
